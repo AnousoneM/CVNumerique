@@ -1,61 +1,37 @@
 body{
     background-color: #15242f;
     color: antiquewhite;
+    width: 100%;
 }
 
-.categories{
+couleurs memo{
     color: #78a450 #f3c06f #036594;
 }
 
-#Name{
+#name{
     text-transform: uppercase;
-    color: antiquewhite;
-    font-size: 4rem;
     text-align: center;
-    font-family: 'Gotu', Arial, sans-serif;
-    width: 100%;
+    font-size: 4rem;
+    font-family: 'Gotu', Arial, Helvetica, sans-serif
 }
 
 #jobtitle{
-    color: antiquewhite;
+    text-align: right;
     font-size: 2rem;
-    text-align: center;
-    font-family: 'Gotu', Arial, sans-serif;
-    width: 100%;
+    font-family: 'Gotu', Arial, Helvetica, sans-serif
 }
 
 .container{
-    height: 90vh;
-    margin: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 1rem;
+    display: flex;
 }
 
-.aboutmecase{
-    grid-row-start: 2;
-    grid-row-end: 2;
-    background: yellow;
-    grid-column-start: 1;
-    grid-column-end: 2;
+.imghome{
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    max-width: 100%;
 }
 
-.experiencecase{
-    grid-row-start: 2;
-    grid-row-end: 2;
-    background-color: green;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-
-.contactcase{
-    grid-row-start: 2;
-    grid-row-end: 2;
-    background: coral;
-    grid-column-start: 3;
-    grid-column-end: 4;  
-}
-.navbarhome{
-
-}
+.links {
+    color: yellow;
+} */
