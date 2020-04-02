@@ -1,11 +1,61 @@
-#background{
+body{
     background-color: #15242f;
+    color: antiquewhite;
 }
 
 .categories{
     color: #78a450 #f3c06f #036594;
 }
 
+#Name{
+    text-transform: uppercase;
+    color: antiquewhite;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Gotu', Arial, sans-serif;
+    width: 100%;
+}
+
+#jobtitle{
+    color: antiquewhite;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Gotu', Arial, sans-serif;
+    width: 100%;
+}
+
+.container{
+    height: 90vh;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.aboutmecase{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background: yellow;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.experiencecase{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: green;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.contactcase{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background: coral;
+    grid-column-start: 3;
+    grid-column-end: 4;  
+}
 .navbarhome{
-    
+
 }
